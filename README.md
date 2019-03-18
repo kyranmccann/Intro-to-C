@@ -37,8 +37,8 @@ If you haven't gotten your C compiler up and running, please do that first. You'
 
 This lab is structured very much like how your introductory JavaScript labs are structured. There are independent modules, each with their own set of exercises that you'll be tasked with implementing. There's an associated set of tests for all the exercises in each module, which you'll run against your code to check to see if it behaves and functions correctly. The order in which you should tackle these exercises is this:
 
-  - [ ] fizzbuzz
-  - [ ] strings
+  - [x] fizzbuzz
+  - [x] strings
   - [ ] pointers
   - [ ] malloc
   - [ ] structs
@@ -61,6 +61,6 @@ code in the `main` functions. Just type `make` to compile an executable. Then
 type `./NAME_OF_EXECUTABLE` (not in caps) to run it, which will execute the code
 inside that program's `main` function.
 
-## Troubleshooting 
+## Troubleshooting
 
 For things that go wrong, check out the [troubleshooting](TROUBLESHOOTING.md) doc.
