@@ -19,7 +19,7 @@ you working directly with the memory on your machine. Higher level languages
 abstract this fact away from you, at the cost of raw performance and control.
 Essentially, you're getting exposed to the nitty-gritty seedy underbelly of your
 computer's inner workings, and being in such a place for extended periods of
-time is not for everybody. 
+time is not for everybody.
 
 That being said, we the instructors do believe that every developer needs to get
 a taste of C in order to really be able to delve into the inner workings of how
@@ -27,7 +27,7 @@ exactly software communicates and interfaces with hardware. That's not really
 something JavaScript or Python will expose you to. Additionally, once you get
 acclimated to C, the language provides you with unparalleled control over how
 your code gets executed on your machine. Some people find the sheer amount of
-control that C provides you intoxicating. 
+control that C provides you intoxicating.
 
 But before any of that happens, you've gotta get your feet wet with C. So without further ado, let's get started!
 
@@ -61,6 +61,6 @@ code in the `main` functions. Just type `make` to compile an executable. Then
 type `./NAME_OF_EXECUTABLE` (not in caps) to run it, which will execute the code
 inside that program's `main` function.
 
-## Troubleshooting
+## Troubleshooting 
 
 For things that go wrong, check out the [troubleshooting](TROUBLESHOOTING.md) doc.
