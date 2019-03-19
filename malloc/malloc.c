@@ -12,11 +12,16 @@
 */
 char *string_dup(char *src)
 {
+  // int length = string_length(src);
+  // char *copy = malloc(length);
+  // for (int i = 0; i <= length; i++){
+  //   copy[i] = src[i];
+  // }
+  // return copy;
   int length = string_length(src);
   char *copy = malloc(length);
-  for (int i = 0; i <= length; i++){
-    copy[i] = src[i];
-  }
+  mem_copy(copy, src, length);
+
   return copy;
 }
 
